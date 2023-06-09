@@ -1,11 +1,11 @@
 import base64
 from dataclasses import dataclass
-import json
 import requests
 import os
 
 
-class PhotoDescriptionError(Exception): ...
+class PhotoDescriptionError(Exception):
+    ...
 
 
 @dataclass
@@ -22,19 +22,18 @@ class ImageProcessor:
     def json(self):
         """Returns image as json body for request"""
         return {
-                "requests": [
-                    {
-                        "image": {"content": str(self.b64_encoding, encoding='ascii')},
-                        "features": [
-                            {
-                                "maxResults": self.max_results,
-                                "type": "OBJECT_LOCALIZATION",
-                            },
-                        ],
-                    }
-                ]
-            }
-
+            "requests": [
+                {
+                    "image": {"content": str(self.b64_encoding, encoding="ascii")},
+                    "features": [
+                        {
+                            "maxResults": self.max_results,
+                            "type": "OBJECT_LOCALIZATION",
+                        },
+                    ],
+                }
+            ]
+        }
 
     @property
     def bearer_token(self):
@@ -42,7 +41,7 @@ class ImageProcessor:
         # TODO: do this properly via os.environ
         return os.system("gcloud auth print-access-token")
 
-    def describe(self) -> str:
+    def describe(self) -> dict | str:
         """Uses Google Vision API to return a description of the scene.
 
         Vision API returns name, mid, score, bounds for each object.
@@ -51,19 +50,28 @@ class ImageProcessor:
             score - likelihood of being classified object
             bounds - 4 corners (coordinates) of box containing object
 
+        :raises PhotoDescriptionError where the API call fails
+        :return json for the scene description
+
         """
 
-        response = requests.post("https://vision.googleapis.com/v1/images:annotate",
-                                 json=self.json,
-                                 headers={
-                                     "Authorization": f"Bearer ya29.a0AWY7Cknbv2gPr_qh3ykWTlUzw3ppqxwomOuRz5jxAwuFmvriKm3iapdHSt0DQb0Hs_x7bQu8J_sEVo-uiG44iuTbTaxRNTAFP5KrxHdiyuzvEMCnFpTb0g-_LXquE37AKisf7DGzTDqalAWb7luAqrjpdU2TKQ3_48JQaCgYKASMSARMSFQG1tDrpdCWPkKdyF0Gw4opdjcC_Bg0171",
-                                     "x-goog-user-project": "sunny-truth-389311",
-                                     "Content-Type": "application/json; charset=utf-8",
-                                    }
-                                 )
+        response = requests.post(
+            "https://vision.googleapis.com/v1/images:annotate",
+            json=self.json,
+            headers={
+                "Authorization": f"Bearer {os.environ.get('GKEY')}",
+                "x-goog-user-project": "sunny-truth-389311",
+                "Content-Type": "application/json; charset=utf-8",
+            },
+        )
 
         if response.status_code == 200:
             return response.json()
 
         else:
-            raise PhotoDescriptionError(response.json())
+            raise PhotoDescriptionError(
+                f"Failed to generate response {os.environ.get('GKEY')}"
+                f""
+                f""
+                f"{response.json()}"
+            )

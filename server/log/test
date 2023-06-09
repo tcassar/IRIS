@@ -1,0 +1,196 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.8:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/image_process.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/server/__main__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
+INFO:werkzeug: * Detected change in '/home/tcassar/projects/tilt/test_server/test_narration.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 789-400-146
