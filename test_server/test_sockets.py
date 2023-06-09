@@ -16,6 +16,5 @@ async def hello():
 
 
 class TestSockets(TestCase):
-
     def test_hello(self):
         asyncio.run(hello())

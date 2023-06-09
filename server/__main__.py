@@ -12,16 +12,11 @@ async def main():
         await asyncio.Future()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # set up logging from websockets
-    logger = logging.getLogger('websockets')
+    logger = logging.getLogger("websockets")
     logger.setLevel(logging.DEBUG)
     logger.addHandler(logging.StreamHandler())
 
     # run the handler
     asyncio.run(main())
-
-
-
-
-
