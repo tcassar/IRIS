@@ -3,7 +3,7 @@
 
 **[*Winning project*](https://developer.sony.com/posts/here-are-the-winning-projects-of-the-spresense-hackathon-at-the-university-of-manchester) at the Sony X University of Manchester Hackathon, June 2022**
 
-![[iris-cover-img.png | 600]]
+![Image with IRIS logo, and computer tracking visuals overlayed on a person](https://github.com/tcassar/IRIS/blob/master/img/iris-cover-img.png)
 
 ---
 ## About
